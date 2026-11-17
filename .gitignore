@@ -1,0 +1,56 @@
+# --- Environments ---
+.env
+
+# --- Development config ---
+.opencode/
+
+# --- Data ---
+data_samples/
+
+# --- Agent context ---
+foragents/
+
+# --- Notes ---
+notas/
+
+# --- Generated reports ---
+reports/
+
+# --- Generated Excel sheets ---
+excel_sheets/
+
+# --- Analysis/reference documents (temp) ---
+md_texts/
+prompts/
+
+# --- Telegram Bot ---
+telegram_bot/temp_files/
+telegram_bot/bot.log
+telegram_bot/__pycache__/
+
+# --- Notebooks ---
+*.ipynb
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# --- Deploy scripts (server-specific, no versionar) ---
+deploy/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- UI local state (items generados por usuarios) ---
+ui/items.db
